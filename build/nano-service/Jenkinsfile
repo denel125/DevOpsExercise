@@ -1,17 +1,14 @@
 
-def username = 'Jenkins'
-echo 'Hello Mr. ${username}'
-echo "I said, Hello Mr. ${username}"
 // Import
 //@Library ("common-global-library@SNAPSHOT")
-//import com.n-serv.*
+import pipeline.groovy
 
-//  Instantiate
-//pl = new pipeline()
+ // Instantiate
+pl = new pipeline()
 
 //Actual work
 //pl.checkout(BRANCH)
-//pl.build()
-//pl.test()
+pl.build()
+pl.test()
 //pl.deploy("A","B")
 //pl.test()
