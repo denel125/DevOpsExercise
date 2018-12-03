@@ -1,6 +1,8 @@
 // Import
 @Library ("common-global-library@SNAPSHOT")
-import com.n-serv.*
+//import com.n-serv.*
+
+def anything = 'nothing'
 
 //  Instantiate
 pl = new pipeline()
