@@ -1,0 +1,13 @@
+// Import
+@Library ("common-global-library@SNAPSHOT")
+import com.n-serv.*
+
+//  Instantiate
+pl = new pipeline()
+
+//Actual work
+pl.checkout(BRANCH)
+pl.build()
+pl.test()
+pl.deploy("A","B")
+pl.test()
