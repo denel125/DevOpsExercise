@@ -1,7 +1,7 @@
 
 // Import
 //@Library ("common-global-library@SNAPSHOT")
-import pipeline.groovy
+//import pipeline.groovy
 
  // Instantiate
 pl = new pipeline()
