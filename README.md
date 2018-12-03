@@ -1,2 +1,0 @@
-# DevOpsExercise
-DevOps Exercise
