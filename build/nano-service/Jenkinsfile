@@ -1,15 +1,17 @@
-// Import
-@Library ("common-global-library@SNAPSHOT")
-import src.com.n-serv.*
 
-def anything = 'nothing'
+def username = 'Jenkins'
+echo 'Hello Mr. ${username}'
+echo "I said, Hello Mr. ${username}"
+// Import
+//@Library ("common-global-library@SNAPSHOT")
+//import com.n-serv.*
 
 //  Instantiate
-pl = new pipeline()
+//pl = new pipeline()
 
 //Actual work
-pl.checkout(BRANCH)
-pl.build()
-pl.test()
-pl.deploy("A","B")
-pl.test()
+//pl.checkout(BRANCH)
+//pl.build()
+//pl.test()
+//pl.deploy("A","B")
+//pl.test()
