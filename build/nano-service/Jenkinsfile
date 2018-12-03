@@ -1,6 +1,6 @@
 // Import
 @Library ("common-global-library@SNAPSHOT")
-//import com.n-serv.*
+import src.com.n-serv.*
 
 def anything = 'nothing'
 
