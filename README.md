@@ -1,2 +1,3 @@
 # DevOpsExercise
-DevOps Exercise
+
+DevOps Exercise. Read-Write Access for northbear have been verified...
